@@ -30,7 +30,7 @@ header{
 .circle{
     background-color: #E5E4E2;
     border-radius: 10px;
-    height: 510px;
+    height: 350px;
     width: 500px;
     text-align: center;
     color: #2C3539;
@@ -93,7 +93,7 @@ header{
 }
 
 .btncircle3{
-    background-color: #DD11EA;
+    background-color: #;
     color: #E5E4E2;
     border: none;
     width: 200px;
@@ -110,3 +110,5 @@ header{
 .nota{
     color: #DA4B83;
 }
+
+@media ()
