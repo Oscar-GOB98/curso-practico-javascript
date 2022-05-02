@@ -1,0 +1,99 @@
+body{
+    background-color: #2C3539;
+}
+
+header{
+    color: #E5E4E2;
+    text-align: center;
+}
+
+.squad{
+    background-color: #E5E4E2;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    text-align: center;
+    color: #2C3539;
+    margin: 10px 10px 0 10px;
+}
+
+.rectangle{
+    background-color: #E5E4E2;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    text-align: center;
+    color: #2C3539;
+    margin: 10px 10px 0 10px;
+}
+
+.circle{
+    background-color: #E5E4E2;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    text-align: center;
+    color: #2C3539;
+    margin: 10px 10px 0 10px;
+}
+
+.btnsquad1{
+    background-color: #061AE3;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.btnsquad2{
+    background-color: #BE12FF;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.btntriangle1{
+    background-color: #061AE3;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.btntriangle2{
+    background-color: #BE12FF;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.btncircle1{
+    background-color: #061AE3;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.btncircle2{
+    background-color: #BE12FF;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.geometry{
+    display: flex;
+    margin-left: 200px;
+}
