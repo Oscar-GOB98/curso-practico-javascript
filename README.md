@@ -17,3 +17,4 @@
 
 ## clase #3: figuras geométricas
 - Se realizo el calculo de las figuras geometricas empleando funciones
+- A discresión propia le di formato y estilo a la pagina de HTML utilizando css
