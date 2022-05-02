@@ -18,47 +18,67 @@
 
         <section class="squad">
             <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <br><br>
             <img src="./icons/orthogonal-view.png" alt="">
             <br><br>
             <form>
-                <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado: </label>
-                <input id="InputCuadrado" type="number">
+                <p class="nota">Nota 1: Recuerde que todos los lados del cuadrado miden lo mismo.</p>
                 <br><br>
+                <label for="InputCuadrado">lados: </label>
+                <input id="InputCuadrado" type="number">
+                <br><br><br><br>
                 <button class="btnsquad1" type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
                 <br><br>
                 <button class="btnsquad2" type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                <br><br>
             </form>
         </section>
 
         <section class="rectangle">
-            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <h2>Calcula el área y perímetro de un triangulo</h2><br><br>
             <img src="./icons/triangle-stroked.png" alt="">
-            <br><br>
             <form>
-                <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado: </label>
-                <input id="InputCuadrado" type="number">
+                <p class="nota">Nota 1: calcular perímetro llenar campos de los lados y la base.</p>
+                <p class="nota">Nota 2: calcular el área llenar campos de la base y la altura.</p>
+                <br>
+                <label for="l1">Lado 1: </label>
+                <input id="l1" type="number">
+                <label for="l2">Lado 2: </label>
+                <input id="l2" type="number">
                 <br><br>
-                <button class="btntriangle1" type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <label for="b1">Base: </label>
+                <input id="b1" type="number">
+                <label for="a1">Altura: </label>
+                <input id="a1" type="number">
                 <br><br>
-                <button class="btntriangle2" type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                <button class="btntriangle1" type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                <br><br>
+                <button class="btntriangle2" type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+                <br><br>
             </form>
         </section>
 
         <section class="circle">
-            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <h2>Calcula el diametro, perimetrto y área del Circulo</h2>
             <img src="./icons/circled.png" alt="">
             <br><br>
             <form>
-                <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado: </label>
-                <input id="InputCuadrado" type="number">
+                <p class="nota">Nota 1: Con el radio puede hacer todos los calculos</p>
                 <br><br>
-                <button class="btncircle1" type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <label for="radio">Radio: </label>
+                <input id="radio" type="number">
                 <br><br>
-                <button class="btncircle2" type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+                <button class="btncircle1" type="button" onclick="diametroCirculo()">Calcular el diametro</button>
+                <br><br>
+                <button class="btncircle2" type="button" onclick="perimetroCirculo()">Calcular el perímetro</button>
+                <br><br>
+                <button class="btncircle3" type="button" onclick="areaCirculo()">Calcular el área</button>
             </form>
         </section>
 
     </div>
+    <br><br><br>
+
 
     <script src="./figuras2.js"></script>
 </body>

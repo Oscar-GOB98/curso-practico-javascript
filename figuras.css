@@ -10,7 +10,7 @@ header{
 .squad{
     background-color: #E5E4E2;
     border-radius: 10px;
-    height: 350px;
+    height: 510px;
     width: 500px;
     text-align: center;
     color: #2C3539;
@@ -20,7 +20,7 @@ header{
 .rectangle{
     background-color: #E5E4E2;
     border-radius: 10px;
-    height: 350px;
+    height: 510px;
     width: 500px;
     text-align: center;
     color: #2C3539;
@@ -30,7 +30,7 @@ header{
 .circle{
     background-color: #E5E4E2;
     border-radius: 10px;
-    height: 350px;
+    height: 510px;
     width: 500px;
     text-align: center;
     color: #2C3539;
@@ -92,8 +92,21 @@ header{
     border-radius: 5px;
 }
 
+.btncircle3{
+    background-color: #DD11EA;
+    color: #E5E4E2;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
 
 .geometry{
     display: flex;
     margin-left: 200px;
+}
+
+.nota{
+    color: #DA4B83;
 }
