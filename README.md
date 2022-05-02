@@ -38,5 +38,6 @@
 - Segundo paso: implementar las fórmulas en JS
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
+- Se crearon los archivos js y html
 
 
