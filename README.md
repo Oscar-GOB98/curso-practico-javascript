@@ -19,3 +19,4 @@
 - Se realizo el calculo de las figuras geometricas empleando funciones
 - A discresión propia le di formato y estilo a la pagina de HTML utilizando css
 - Se realizo el responsive de la aplicación para que quedara tanto desktop como mobile
+- Se realizo el calculo de la altura del triangulo isósceles
