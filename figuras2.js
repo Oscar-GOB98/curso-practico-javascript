@@ -89,3 +89,22 @@ function calcularAreaTriangulo(){
     alert(tArea);
 }
 
+function calcularAlturaTrianguloIso(){
+    let lado1 = document.getElementById("li1");
+    let li1 = parseFloat(lado1.value);
+
+    let lado2 = document.getElementById("li2");
+    let li2 = parseFloat(lado2.value);
+
+    let base = document.getElementById("bi1");
+    let bi1 = parseFloat(base.value);
+
+    if(li1 == li2){
+        let alt = (li1 * li1) - ((bi1 * bi1)/4);
+        let altura = Math.sqrt(alt);
+
+        alert(altura);
+    }else{
+        alert('Los lados del triangulo no son iguales')
+    }
+}
