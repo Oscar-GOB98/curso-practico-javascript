@@ -17,7 +17,7 @@
 .descount{
     background-color: #167CDC;
     border-radius: 10px;
-    height: 700px;
+    height: 750px;
     width: 510px;
     text-align: center;
     color: #2C3539;
@@ -72,6 +72,14 @@ input{
     margin: 10px 10px 0 10px;
 }
 
+.ticket1:hover{
+    cursor: pointer;
+}
+
+.ticket2:hover{
+    cursor: pointer;
+}
+
 .descuento{
     font-size: large;
     font-family:'Arial Narrow Bold';
@@ -108,4 +116,12 @@ input{
     right: 152px;
     display: flex;
     justify-content: center;
+}
+
+.clear{
+    background-color: #71C900;
+    color: #EDFEF3;
+    border: none;
+    position: relative;
+    border-radius: 10px;
 }

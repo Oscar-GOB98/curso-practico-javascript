@@ -24,20 +24,23 @@
                     <input type="number" id="InputPrice" oninput="PriceDiscount()">
                     <br><br>
         
-                    <label class="other" for="InputDiscount">Descuento del producto: </label>
+                    <label class="other" for="InputDiscount">Porcentaje de descuento: </label>
                     <br>
                     <input type="number" id="InputDiscount" oninput="PriceDiscount()">
                     <br><br>
                     <p class="descuento">Cupones de descuento al comprar productos</p>
+                    <p class="descuento">Nota: Si lleva la cantidad de productos aplicables en el cupon,
+                        en precio de producto coloque el precio total de todos los productos.
+                    </p>
                     <div class="tickets">
-                        <img class="ticket1" src="./assets/ticket1.png" alt="">
+                        <img onclick="Descuento1()" class="ticket1" src="./assets/ticket1.png" alt="">
                         <p class="primero">5+</p>
-                        <img class="ticket2" src="./assets/ticket2.png" alt="">
+                        <img onclick="Descuento2()" class="ticket2" src="./assets/ticket2.png" alt="">
                         <p class="segundo">10+</p>
                         
                     </div>
 
-                    <br><br><br>
+                    <br>
 
                     <div class="billete">
                         <img class="billetes" src="./assets/billetes.png" alt="">
@@ -45,8 +48,10 @@
                     </div>
                     
                 </form>
+                <button class="clear" onclick="location.reload()">clear</button>
             </section>
         </div>
+        
     <script src="./descuentos.js"></script>
 </body>
 </html>
