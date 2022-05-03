@@ -40,4 +40,8 @@
 - Cuarto paso: integrar JS con HTML
 - Se crearon los archivos js y html
 
+## clase #2: Porcentajes y descuentos
+- Se realizo el formulario HTML
+- Se ralizo el JS para traer los datos que los usuarios inserten en el formulario de HTML
+- Se mejoro la muestra del resultado al usuario, ya no se muestra como alerta sino que se muestra en la página.
 
