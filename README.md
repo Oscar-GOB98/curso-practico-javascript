@@ -44,4 +44,5 @@
 - Se realizo el formulario HTML
 - Se ralizo el JS para traer los datos que los usuarios inserten en el formulario de HTML
 - Se mejoro la muestra del resultado al usuario, ya no se muestra como alerta sino que se muestra en la página.
+- Se realizo a discreción personal mejora en el formulario HTML y se realizaron las funciones para aplicar cupones de descuento
 
