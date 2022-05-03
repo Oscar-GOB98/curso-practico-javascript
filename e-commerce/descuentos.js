@@ -10,5 +10,5 @@ function PriceDiscount(){
     let PriceDiscountReal = (InputPrice * porcentaje) / 100;
 
     const resultP = document.getElementById("ResultP");
-    resultP.innerText = "El precio con descuento es: Q."+PriceDiscountReal+".00";
+    resultP.innerText = "Q"+PriceDiscountReal;
 }

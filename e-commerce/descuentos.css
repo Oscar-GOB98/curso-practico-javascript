@@ -17,7 +17,7 @@
 .descount{
     background-color: #167CDC;
     border-radius: 10px;
-    height: 600px;
+    height: 700px;
     width: 510px;
     text-align: center;
     color: #2C3539;
@@ -47,4 +47,65 @@ input{
 .billetes{
     width: 250px;
     height: 250px;
+}
+
+.billete{
+    position: relative; 
+}
+
+.billete p{
+    width: 16px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: medium;
+    color: #EDFEF3;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    right: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket1, .ticket2{
+    width: 100px;
+    margin: 10px 10px 0 10px;
+}
+
+.descuento{
+    font-size: large;
+    font-family:'Arial Narrow Bold';
+    color: aliceblue;
+}
+
+.tickets{
+    position: relative; 
+}
+
+.tickets .primero{
+    width: 16px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: large;
+    color: #167CDC;
+    font-weight: bold;
+    position: absolute;
+    top: 4px;
+    right: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+.tickets .segundo{
+    width: 16px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: large;
+    color: #167CDC;
+    font-weight: bold;
+    position: absolute;
+    top: 1px;
+    right: 152px;
+    display: flex;
+    justify-content: center;
 }
