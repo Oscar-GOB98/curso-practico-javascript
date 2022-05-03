@@ -1,0 +1,50 @@
+.style{
+    background-color: #71C900;
+}
+
+.center img:nth-child(1){
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.descount{
+    background-color: #167CDC;
+    border-radius: 10px;
+    height: 600px;
+    width: 510px;
+    text-align: center;
+    color: #2C3539;
+    margin: 10px 10px 0 10px;
+}
+
+.other{
+    font-size: xx-large;
+    font-family:'Arial Narrow Bold';
+    color: aliceblue;
+}
+
+input{
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    background-color: cornsilk;
+    border: none;
+    border-radius: 15px;
+}
+
+.dolar{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.billetes{
+    width: 250px;
+    height: 250px;
+}

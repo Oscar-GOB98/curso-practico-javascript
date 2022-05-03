@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./descuentos.css">
     <title>porcentajes y descuentos</title>
 </head>
+<header class="style">
+    <div class="center">
+        <img src="./assets/black.png" alt="">
+    </div>
+</header>
+
 <body>
-    <h1>Porcentajes y descuentos</h1>
-    <p>Segundo taller del curso de JS</p>
+        <div class="centrar">
+            <section class="descount">
+        
 
-    <section>
-        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+                <form>
+                    <label class="other" for="InputPrice">Precio del producto: </label>
+                    <br>
+                    <input type="number" id="InputPrice" oninput="PriceDiscount()">
+                    <br><br>
+        
+                    <label class="other" for="InputDiscount">Descuento del producto: </label>
+                    <br>
+                    <input type="number" id="InputDiscount" oninput="PriceDiscount()">
+                    <br><br>
+                    <p id="ResultP"></p>
 
-        <form>
-            <label for="InputPrice">Precio del producto: </label>
-            <input type="number" id="InputPrice">
 
-            <label for="InputDiscount">Descuento del producto: </label>
-            <input type="number" id="InputDiscount">
-            <br>
-            <button type="button" onclick="PriceDiscount()">Calcular Descuento</button>
+                    <br><br><br><br><br><br><br><br>
 
-            <p id="ResultP"></p>
-        </form>
-    </section>
-
+                    <img class="billetes" src="./assets/billetes.png" alt="">
+                </form>
+            </section>
+        </div>
     <script src="./descuentos.js"></script>
 </body>
 </html>
