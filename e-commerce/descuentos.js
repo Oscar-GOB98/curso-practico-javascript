@@ -1,20 +1,14 @@
-const precioOriginal = 100;
-const descuento = 15;
+function PriceDiscount(){
+    let Price = document.getElementById("InputPrice");
+    let InputPrice = Price.value;
 
-const porcentajePrecioConDescuento = 100 - descuento;
+    let Discount = document.getElementById("InputDiscount");
+    let InputDiscount= Discount.value;
 
-const precioConDescuento = (precioOriginal * porcentajePrecioConDescuento) / 100;
+    porcentaje = 100 - InputDiscount;
 
-console.log({
-    precioOriginal,
-    descuento,
-    porcentajePrecioConDescuento,
-    precioConDescuento
-});
+    let PriceDiscountReal = (InputPrice * porcentaje) / 100;
 
-function RealizarDescuento(precio, descuento){
-    const porcentaje = 100 - descuento;
-    const precioReal = (precio * porcentaje) / 100;
-
-    console.log('El precio a pagar con descuento es: '+precioReal);
+    const resultP = document.getElementById("ResultP");
+    resultP.innerText = "El precio con descuento es: Q."+PriceDiscountReal+".00";
 }
