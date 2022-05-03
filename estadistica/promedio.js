@@ -15,3 +15,4 @@ function mAritmetica(lista){
     const promedioLista = sumaLista / lista.length;
     return promedioLista;
 }
+
