@@ -52,9 +52,14 @@
 
 -------------------------------------------------------------------------------------------------
 
-## clase 1: Estistica
+## clase 1: Estadistica
 
 - Primer paso: definir las fórmulas
 - Segundo paso: implementar las fórmula del promedio, mediana y moda en JS
 - Tercer paso: crear funciones
 - Cuarto paso: integar JS con HTML
+
+## clase 2: Estadistica
+- Se realizo la funcion para encontrar la media aritmetica
+- Se utilizo ciclo for
+- Se utilizo funcion reduce() que permite sumar los elementos de una lista
