@@ -46,3 +46,15 @@
 - Se mejoro la muestra del resultado al usuario, ya no se muestra como alerta sino que se muestra en la página.
 - Se realizo a discreción personal mejora en el formulario HTML y se realizaron las funciones para aplicar cupones de descuento
 
+-------------------------------------------------------------------------------------------------
+
+# Taller #3: Estadistica (Promedio, Mediana y Moda)
+
+-------------------------------------------------------------------------------------------------
+
+## clase 1: Estistica
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las fórmula del promedio, mediana y moda en JS
+- Tercer paso: crear funciones
+- Cuarto paso: integar JS con HTML
