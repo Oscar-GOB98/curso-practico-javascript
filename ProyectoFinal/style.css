@@ -1,0 +1,160 @@
+body{
+    background-color: #e2dce2;
+}
+
+.title{
+    background-color: #343b52;
+    text-align: center;
+}
+
+.title img.izquierda{
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title img.derecha{
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+.title img.derecha1{
+    display: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title img.derecha2{
+    display: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title img.derecha3{
+    display: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title img.derecha4{
+    display: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.title img.derecha5{
+    display: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+
+.title label{
+    cursor: pointer;
+    margin: 10px 30px 0 30px;
+    font-size: x-large;
+    font-family: arial;
+}
+
+.sirvep{
+    background-color: #e74c3c;
+    border-radius: 10px;
+    height: 350px;
+    width: 610px;
+}
+
+form{
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.sirve{
+    display: none;
+    margin: 50px;
+}
+
+.extras{
+    display: none;
+    margin: 50px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.homep{
+    background-color: #1abc9c;
+    border-radius: 10px;
+    height: 350px;
+    width: 610px;
+}
+
+.homep p{
+    color: #34495e;
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+
+
+@media (max-width: 836px){
+    .title img.derecha{
+        display: none;
+    }
+    .title img.izquierda{
+        display: none;
+    }
+    .title img.derecha1{
+        float: left;
+        margin-tigt: 15px;
+        margin-top: 5px;
+        height: 70px;
+    }
+    .title img.derecha2{
+        float: left;
+        margin-tigt: 15px;
+        margin-top: 5px;
+        height: 70px;
+    }
+    .title img.derecha3{
+        float: left;
+        margin-tigt: 15px;
+        margin-top: 5px;
+        height: 70px;
+    }
+    .title img.derecha4{
+        float: left;
+        margin-tigt: 15px;
+        margin-top: 5px;
+        height: 70px;
+    }
+    .title img.derecha5{
+        float: left;
+        margin-tigt: 15px;
+        margin-top: 5px;
+        height: 70px;
+    }
+    .homep p{
+        font-size: 25px;
+       
+    }
+    .homep{
+        height: 200px;
+        width: 610px;
+    }
+}

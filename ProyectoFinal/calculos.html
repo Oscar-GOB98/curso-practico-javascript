@@ -4,21 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./calculo.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./llamadas.js"></script>
     <script src="./calculos.js"></script>
     <title>BUSINEES</title>
 </head>
 <body>
+
     <div class="title">
-        <img src="./assets/estimate.png" alt="" class="izquierda">
-        <img src="./assets/estimate.png" alt="" class="derecha">
+        <img id="izquierda" src="./assets/estim.png" alt="" class="izquierda">
+        <img id="derecha" src="./assets/estim.png" alt="" class="derecha">
+        <img id="derecha1" src="./assets/funciones.png" alt="" class="derecha1">
+        <img id="derecha2" src="./assets/hrs.png" alt="" class="derecha2">
+        <img id="derecha3" src="./assets/ingresos.png" alt="" class="derecha3">
+        <img id="derecha4" src="./assets/perdidas.png" alt="" class="derecha4">
+        <img id="derecha5" src="./assets/home.png" alt="" class="derecha5">
         <h1>BUSINESS CALCULATOR</h1>
-        <button type="button" id="lb1">Inicio</button>
-        <button type="button" id="lb1" onclick="ocultar1()">¿Para qué sirve?</button>
-        <button type="button" id="lb2" onclick="ocultar2()">calcular horas extras</button>
-        <button type="button" id="lb3" onclick="ocultar3()">ingresos</button>
-        <button type="button" id="lb4" onclick="ocultar4()">egresos</button> 
+        <nav class="nav">
+            <a onclick="ocultar()">Home</a>
+            <a onclick="ocultar1()">Functions</a>
+            <a onclick="ocultar2()">hours</a>
+            <a onclick="ocultar3()">revenues</a>
+            <a onclick="ocultar4()">expenses</a>
+            <div class="animation start-home"></div>
+        </nav>
+        <nav class="nav2">
+            <a onclick="ocultar5()" >Home</a>
+            <a onclick="ocultar1()">Functions</a>
+            <a onclick="ocultar2()">hours</a>
+            <a onclick="ocultar3()">revenues</a>
+            <a onclick="ocultar4()">expenses</a>
+            <div class="animation start-home"></div>
+        </nav>
+        
+        
+    
     </div>
+
+
+    <div class="home" id="home">
+        <section class="homep">
+            <form><br><br>
+                <p>WELCOM TO</p>
+                <P>MY COMPANY</P>
+            </form>
+        </section>
+    </div>
+
 
     <div class="sirve" id="sirve">
         <section class="sirvep">
