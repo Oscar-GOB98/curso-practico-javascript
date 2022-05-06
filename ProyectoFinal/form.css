@@ -1,0 +1,112 @@
+.extrasp{
+    background-color: #3498db;
+    height: 550px;
+    width: 520px;
+    color: aliceblue;
+}
+
+#extras1, #extras2, #extras3{
+    background-color: aliceblue;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    color: #34495e;
+}
+
+.mensual, .q, .ordinaria, .hrsextras, .valor, .total, #extras4, #extras5{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#extras1, #extras2, #extras3{
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px; 
+}
+
+.q{
+    float: center;
+    margin-left: 115px;
+    margin-top: 0px;
+   
+}
+
+.horase{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.guia{
+    color: #34495e;
+}
+
+.valor, .total, #extras4, #extras5{
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    float: center;
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 450px;
+}
+
+@media (max-width: 500px){
+    .extrasp{
+        height: 300px;
+        width: 320px;
+    }
+    .mensual, .q, .ordinaria, .hrsextras, .valor, .total, #extras4, #extras5{
+        font-size: medium;
+    }
+    #extras1, #extras2, #extras3{
+        width: 50px;
+        height: 20px;
+        font-size: medium;
+    }
+    #extras1, #extras2, #extras3{
+        float: right;
+        margin-right: 10px;
+        margin-top: 2px; 
+    }
+    .q{
+        float: center;
+        margin-left: 80px;
+        margin-top: 0px;
+       
+    }
+    .new{
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 250px;
+    }
+    .guia{
+        display: none;
+    }
+
+}
+
+@media (max-width: 390px){
+    #extras1, #extras2, #extras3{
+        margin-right: 20px;
+        margin-top: 2px; 
+    }
+    .q{
+        margin-left: 15px;
+        margin-top: 0px;
+       
+    }
+    .new{
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 180px;
+    }
+    .guia{
+        display: none;
+    }
+
+}

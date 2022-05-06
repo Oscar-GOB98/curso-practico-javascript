@@ -6,6 +6,9 @@ body{
     background-color: #343b52;
     text-align: center;
 }
+.title h1{
+    color: #e2dce2;
+}
 
 .title img.izquierda{
     float: left;
@@ -121,31 +124,31 @@ form{
     }
     .title img.derecha1{
         float: left;
-        margin-tigt: 15px;
+        margin-right: 8px;
         margin-top: 5px;
         height: 70px;
     }
     .title img.derecha2{
         float: left;
-        margin-tigt: 15px;
+        margin-right: 8px;
         margin-top: 5px;
         height: 70px;
     }
     .title img.derecha3{
         float: left;
-        margin-tigt: 15px;
+        margin-right: 8px;
         margin-top: 5px;
         height: 70px;
     }
     .title img.derecha4{
         float: left;
-        margin-tigt: 15px;
+        margin-right: 8px;
         margin-top: 5px;
         height: 70px;
     }
     .title img.derecha5{
         float: left;
-        margin-tigt: 15px;
+        margin-right: 8px;
         margin-top: 5px;
         height: 70px;
     }

@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./menu.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./revenues.css">
     <script src="./llamadas.js"></script>
     <script src="./calculos.js"></script>
     <title>BUSINEES</title>
 </head>
 <body>
+
+
+    <!--Menu principal -->
 
     <div class="title">
         <img id="izquierda" src="./assets/estim.png" alt="" class="izquierda">
@@ -43,6 +48,8 @@
     </div>
 
 
+    <!--Seccion que sirve para el inicio de la pagina y para llamarl el el boton home-->
+
     <div class="home" id="home">
         <section class="homep">
             <form><br><br>
@@ -52,6 +59,8 @@
         </section>
     </div>
 
+
+    <!--Seccion que sirve para mandar a llamarse en el boton funciones, donde se explica el proposito de la pagina-->
 
     <div class="sirve" id="sirve">
         <section class="sirvep">
@@ -66,10 +75,58 @@
         </section>
     </div>
 
+    <!--Formulario para calcular las horas extras de un trabajador-->
+
     <div class="extras" id="extras">
         <section class="extrasp">
-            <form>
-                <p>Solo Prueba</p>
+            <form class="horase">
+                <label class="mensual">Salario mensual</label>
+                <label class="q">Q.</label>
+                <input oninput="calculohoras()" id="extras1" type="text">
+                <br><br>
+                <label class="ordinaria">Jornada ordinaria</label>
+                <input oninput="calculohoras()" id="extras2" type="text">
+                <br><br>
+                <label class="hrsextras">Horas extras</label>
+                <input oninput="calculohoras()" id="extras3" type="text">
+                <br><br>
+                <img class="new" onclick="limpiar()" src="./assets/new.png" alt="">
+                <br>
+                <label class="guia">--------------------------------------------------------------------------------------</label>
+                <h1 class="valor">Valor hora extra</h1>
+                <p id="extras4"></p>
+                <label class="guia">--------------------------------------------------------------------------------------</label>
+                <h1 class="total">Total a recibir</h1>
+                <p id="extras5"></p>
+
+                
+            </form>
+        </section>
+    </div>
+
+    <div class="revenues" id="revenues">
+        <section class="revenuesp">
+            <form class="revenue">
+                <h1>Gastos</h1>
+                <h3>Cantidad</h3>
+                <input type="text" name="" id="cantidad">
+                <h3>Tipo de Gasto</h3>
+                <select id="gasto1">
+                    <option>Sueldos</option>
+                    <option>Compra de equipo</option>
+                    <option>Gastos de organización</option>
+                    <option>Gastos de produccion</option>
+                </select><br><br>
+                <button onclick="calculogasto()" type="" id="agregar">Agregar</button>
+            </form>
+        </section>
+        <section class="revenuesp1">
+            <form class="revenue1">
+                <h1>Ingresos totales: </h1>
+                <p id=""></p>
+                <br><br>
+                <h2>Gastos totales: </h2>
+                <p id="totalesg"></p>
             </form>
         </section>
     </div>

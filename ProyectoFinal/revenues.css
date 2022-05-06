@@ -1,0 +1,30 @@
+.revenuesp, .revenuesp1{
+    background-color: #9b59b6;
+    margin: 30px 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.revenues, .revenues1{
+    display: none;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+form{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#cantidad, #gasto, #agregar{
+    background-color: #d385f1;
+    color: antiquewhite;
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+#agregar{
+    cursor: pointer;
+}

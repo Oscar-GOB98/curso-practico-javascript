@@ -10,6 +10,7 @@ function ocultar(){
     document.getElementById('derecha3').style.display = 'none';
     document.getElementById('derecha4').style.display = 'none';
     document.getElementById('derecha5').style.display = 'none';
+    document.getElementById('revenues').style.display = 'none';
 }
 
 function ocultar1(){
@@ -24,6 +25,7 @@ function ocultar1(){
     document.getElementById('derecha4').style.display = 'none';
     document.getElementById('derecha5').style.display = 'none';
     document.getElementById('derecha5').style.display = 'none';
+    document.getElementById('revenues').style.display = 'none';
 
     
 }
@@ -39,6 +41,7 @@ function ocultar2(){
     document.getElementById('derecha3').style.display = 'none';
     document.getElementById('derecha4').style.display = 'none';
     document.getElementById('derecha5').style.display = 'none';
+    document.getElementById('revenues').style.display = 'none';
 }
 
 function ocultar3(){
@@ -51,6 +54,7 @@ function ocultar3(){
     document.getElementById('derecha3').style.display = 'flex';
     document.getElementById('derecha4').style.display = 'none';
     document.getElementById('derecha5').style.display = 'none';
+    document.getElementById('revenues').style.display = 'flex';
 }
 
 function ocultar4(){
@@ -65,6 +69,7 @@ function ocultar4(){
     document.getElementById('derecha3').style.display = 'none';
     document.getElementById('derecha4').style.display = 'flex';
     document.getElementById('derecha5').style.display = 'none';
+    document.getElementById('revenues').style.display = 'none';
 }
 
 function ocultar5(){
@@ -79,4 +84,5 @@ function ocultar5(){
     document.getElementById('derecha3').style.display = 'none';
     document.getElementById('derecha4').style.display = 'none';
     document.getElementById('derecha5').style.display = 'flex';
+    document.getElementById('revenues').style.display = 'none';
 }
